@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZLangRT", "..\ZCompileCore 0.3\ZLangRT\ZLangRT.csproj", "{C7D13A96-EF60-4325-93B3-42E27575D53B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Z语言系统", "..\ZCompileCore 0.3\Z语言系统\Z语言系统.csproj", "{8E893D3F-CF9C-4B45-B28C-06CA6E0436BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Z操作系统", "TKT操作系统\Z操作系统.csproj", "{5A507037-5F4A-41FF-A877-37FCCA264EB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Z互联网", "Z互联网\Z互联网.csproj", "{ED2DD491-D1B2-4F6D-B436-6AE71FC86869}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Z文件系统", "Z文件系统\Z文件系统.csproj", "{AE1AD2BE-DC4A-4413-AA60-35168EFC752E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Z桌面控件", "TKT桌面控件\Z桌面控件.csproj", "{89C4A90D-76A0-476A-B844-78636AC1E6E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Z绘图", "TKT绘图\Z绘图.csproj", "{091FE1C5-65B2-4193-B28E-8061FA45A1C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7D13A96-EF60-4325-93B3-42E27575D53B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7D13A96-EF60-4325-93B3-42E27575D53B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7D13A96-EF60-4325-93B3-42E27575D53B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7D13A96-EF60-4325-93B3-42E27575D53B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E893D3F-CF9C-4B45-B28C-06CA6E0436BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E893D3F-CF9C-4B45-B28C-06CA6E0436BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E893D3F-CF9C-4B45-B28C-06CA6E0436BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E893D3F-CF9C-4B45-B28C-06CA6E0436BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A507037-5F4A-41FF-A877-37FCCA264EB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A507037-5F4A-41FF-A877-37FCCA264EB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A507037-5F4A-41FF-A877-37FCCA264EB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A507037-5F4A-41FF-A877-37FCCA264EB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED2DD491-D1B2-4F6D-B436-6AE71FC86869}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED2DD491-D1B2-4F6D-B436-6AE71FC86869}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED2DD491-D1B2-4F6D-B436-6AE71FC86869}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED2DD491-D1B2-4F6D-B436-6AE71FC86869}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE1AD2BE-DC4A-4413-AA60-35168EFC752E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE1AD2BE-DC4A-4413-AA60-35168EFC752E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE1AD2BE-DC4A-4413-AA60-35168EFC752E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE1AD2BE-DC4A-4413-AA60-35168EFC752E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89C4A90D-76A0-476A-B844-78636AC1E6E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89C4A90D-76A0-476A-B844-78636AC1E6E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89C4A90D-76A0-476A-B844-78636AC1E6E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89C4A90D-76A0-476A-B844-78636AC1E6E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{091FE1C5-65B2-4193-B28E-8061FA45A1C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{091FE1C5-65B2-4193-B28E-8061FA45A1C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{091FE1C5-65B2-4193-B28E-8061FA45A1C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{091FE1C5-65B2-4193-B28E-8061FA45A1C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

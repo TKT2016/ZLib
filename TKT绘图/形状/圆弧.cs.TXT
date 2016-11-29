@@ -1,0 +1,30 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+using ZLangRT;
+using ZLangRT.Attributes;
+
+namespace TKT绘图
+{
+    [MappingType(typeof(Rectangle))]
+    public class 圆弧
+    {
+        [MappingCode("X")]
+        public int X { get; set; }
+
+        [MappingCode("Y")]
+        public int Y { get; set; }
+
+        [MappingCode("长度")]
+        public int Width { get; set; }
+
+        [MappingCode("高度")]
+        public int Height { get; set; }
+
+        [MappingCode("左上角位置")]
+        public Point Location { get; set; }
+    }
+}

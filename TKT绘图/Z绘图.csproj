@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{091FE1C5-65B2-4193-B28E-8061FA45A1C8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Z绘图</RootNamespace>
+    <AssemblyName>Z绘图</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CiDian.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="动画窗体.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="图片辅助.cs" />
+    <Compile Include="图片.cs" />
+    <Content Include="形状\圆弧.cs.TXT" />
+    <Compile Include="形状\点.cs" />
+    <Compile Include="形状\点辅助.cs" />
+    <Compile Include="文本块.cs" />
+    <Compile Include="形状\椭圆.cs" />
+    <Compile Include="字体.cs" />
+    <Compile Include="笔刷库.cs" />
+    <Compile Include="绘图辅助.cs" />
+    <Compile Include="位图.cs" />
+    <Compile Include="形状\圆.cs" />
+    <Compile Include="形状\线段.cs" />
+    <Compile Include="笔刷.cs" />
+    <Compile Include="线性渐变笔刷.cs" />
+    <Compile Include="形状\矩形.cs" />
+    <Compile Include="画笔.cs" />
+    <Compile Include="绘图器.cs" />
+    <Compile Include="绘图窗体.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="颜色.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\ZCompileCore 0.3\ZLangRT\ZLangRT.csproj">
+      <Project>{c7d13a96-ef60-4325-93b3-42e27575d53b}</Project>
+      <Name>ZLangRT</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TKT桌面控件\Z桌面控件.csproj">
+      <Project>{89c4a90d-76a0-476a-b844-78636ac1e6e6}</Project>
+      <Name>Z桌面控件</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

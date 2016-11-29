@@ -1,0 +1,20 @@
+﻿using NSoup.Nodes;
+using NSoup.Select;
+using ZLangRT.Attributes;
+
+namespace TKT互联网
+{
+    [MappingType(typeof(Elements))]
+    public class 网页元素群
+    {
+        [Code("个数")]
+        public int Count { get; set; }
+
+        [Code("第一个元素")]
+        public Element First { get; set; }
+
+        [Code("最后一个元素")]
+        public Element Last { get; set; }
+
+    }
+}
